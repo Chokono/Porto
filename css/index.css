@@ -1,16 +1,6 @@
-#BG {
-    background: url('http://gluon.rghost.ru/8h9CFcSzR/image.png') no-repeat center top;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    max-midth: 1250px;
-    min-height: 6000px;
-    opacity: 0.3;
-}
-
 body {
     margin: 0;
+    font-family: arial;
 }
 
 #BG {
@@ -20,11 +10,11 @@ body {
 .row {
     margin: 0 auto;
     max-width: 1350px;
-    padding-top: 10px;
 }
 
 .header {
     min-height: 57px;
+    padding-top: 10px;
 }
 
 .log {
@@ -51,7 +41,6 @@ body {
 
 .kvad {
     height: 453px;
-    width: 1350px;
     margin: 0 auto;
     padding-top: 247px;
 }
@@ -81,4 +70,38 @@ body {
     font-size: 20.4px;
     line-height: 0.75;
 }
-.buton{height:62.4px; width:235px; margin:31px auto 0; border-radius:5px;}
+
+.buton {
+    height: 62.4px;
+    width: 235px;
+    margin: 31px auto 0;
+    border-radius: 5px;
+}
+
+.podEkr {
+    height: 112px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nadpisPodEkr1 {
+    position: absolute;
+    top: 29px;
+    left: 7.9%;
+    font-size: 20px;
+}
+
+.nadpisPodEkr2 {
+    position: absolute;
+    top: 60px;
+    left: 7.9%;
+    font-size: 18px;
+}
+
+.kartPodEkr1 {
+    position: absolute;
+    height: 32px;
+    width: 90px;
+    bottom: 0px;
+    right: -100px;
+}
