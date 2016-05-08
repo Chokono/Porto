@@ -81,4 +81,4 @@ body {
     font-size: 20.4px;
     line-height: 0.75;
 }
-.buton{height:62.4px; width:235px; margin:31px 0 0 41.3%; border-radius:5px;}
+.buton{height:62.4px; width:235px; margin:31px auto 0; border-radius:5px;}
