@@ -4,7 +4,15 @@ body {
 }
 
 #BG {
-    z-index: -1;
+    background: url('http://gluon.rghost.ru/8h9CFcSzR/image.png') no-repeat center top;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-midth: 1250px;
+    min-height: 6000px;
+    opacity: 0.3;
+    z-index:-1;
 }
 
 .row {
