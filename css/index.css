@@ -88,28 +88,24 @@ body {
 
 .podEkr {
     height: 112px;
-    margin: 0 auto;
-    position: relative;
 }
 
 .nadpisPodEkr1 {
-    position: absolute;
-    top: 29px;
-    left: 7.9%;
-    font-size: 20px;
+font-size: 20px;
+float: left;
+padding: 22px 0 0 8%;
+line-height: 28px;
+width: 42%;
 }
 
-.nadpisPodEkr2 {
-    position: absolute;
-    top: 60px;
-    left: 7.9%;
-    font-size: 18px;
+.nadpisPodEkr1 span{
+	font-size: 18px;
 }
 
 .kartPodEkr1 {
-    position: absolute;
-    height: 32px;
-    width: 90px;
-    bottom: 0px;
-    right: -100px;
+height: 32px;
+width: 90px;
+display: inline-block;
+margin: 0px 0 -5px 5px;
 }
+
