@@ -4,142 +4,167 @@ body {
 }
 
 #BG {
-    background: url('http://gluon.rghost.ru/8h9CFcSzR/image.png') no-repeat center top;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    max-midth: 1250px;
+    background: url('http://gluon.rghost.ru/8h9CFcSzR/image.png') no-repeat;
+    background-size:100%;
+    max-width: 1350px;
     min-height: 6000px;
     opacity: 0.3;
-    z-index: -1;
+    margin:0 auto;
 }
 
-.row {
-    margin: 0 auto;
-    max-width: 1350px;
-}
-
-.header {
-    min-height: 57px;
-    padding-top: 10px;
-}
-
-.log {
+.logo{
+    display:block;
+    height:45px;
     width: 90px;
-    height: 45px;
-    display: block;
-    margin: 0 0 0 7.6%;
-    float: left;
+    margin:10px 0 0 7.5%;
+    float:left;
 }
 
-.but {
-    height: 40px;
-    width: 100px;
-    float: right;
-    margin: 0 7.9% 0 0;
+header{
+    min-height:67px;
+    box-shadow:0 1px 2px;
 }
 
-.menu {
-    width: 51%;
-    height: 45px;
-    float: right;
-    margin: 0 1% 0 0
+.knop3{
+    float:right;
+    width:110px;
+    margin:14px 7.5% 0 0;
 }
 
-.kvad {
-    height: 453px;
-    margin: 0 auto;
-    padding-top: 247px;
+header div a:hover{cursor:default;}
+
+.knopki:hover{cursor: pointer;}
+
+.knopki{
+    display:inline-block;
+    height:35px;
+    width:32px;
+    border:none;
+    border-radius:50%;
+    box-shadow:0 2px 5px;
 }
 
-.nadpis1 {
-    height: 19px;
-    margin-bottom: 20px;
-    TEXT-ALIGN: center;
-    font-size: 23px;
-    line-height: 0.9;
+.knopka1{
+    background:url("../img/sprite.png") no-repeat 10px 7px;
 }
 
-.nadpis2 {
-    height: 45px;
-    margin-bottom: 17px;
-    text-align: center;
-    font-size: 60px;
-    font-family: arial;
-    line-height: 0.75;
-    font-weight: 900;
+.knopka2{
+    background:url("../img/sprite.png") no-repeat -50px 7px;
 }
 
-.nadpis3 {
-    height: 20px;
-    font-family: arial;
-    text-align: center;
-    font-size: 20.4px;
-    line-height: 0.75;
+.knopka3{
+    background:url("../img/sprite.png") no-repeat -100px 7px;
 }
 
-.buton {
-    height: 62.4px;
-    width: 235px;
-    margin: 31px auto 0;
-   
+nav{ 
+    vertical-align:middle;
+    margin:14px 0.65% 0 0;
+    float:right;
+    line-height:40px;
+    font-size:12.5px;
+    color:#0088cc;
 }
 
-.buton1 {
-    height: 62.4px;
-    width: 235px;
-    margin: 0;
-    border-radius: 5px;
-    border: none;
+nav:after{
+    clear:both;
 }
 
-.clearfix:after {
-    clear: both;
-    content: "";
-    display: block;
+nav a{
+    border-radius:5px;
+    text-decoration:none;
+    display:inline-block;
+    height:40px;
+    margin-right:3px;
+    }
+
+nav a:last-child{
+    margin-right:0;
 }
 
-.nadpisPodEkr1 {
-    color: white;
-    font-size: 20px;
-    float: left;
-    padding: 22px 0 0 8%;
-    line-height: 28px;
-    width: 42%;
-    min-height: 90px;
+nav a:hover{
+    background-color:#0088cc;
+    color:white;
 }
 
-.nadpisPodEkr1 span {
-    font-size: 18px;
+nav a li{padding:0 18px 0 13px;}
+
+.ekran{
+    padding-top:245px;
+    margin-top:58px;
+    min-height:455px;
+    Abackground-color:#000000;
+    color:#ffffff;
+    text-align:center;
 }
 
-.kartPodEkr1 {
-    height: 32px;
-    width: 90px;
-    display: inline-block;
-    margin: 0px 0 -5px 5px;
+.start{
+    font-size:24px;
 }
 
-.pravPodKart {
-    float: right;
-    margin:40px 7.7% 0 0;
-    color: white;
-    font-size: 15px;
+.new{
+font-size:65px;
+font-weight:800;
+margin-top:5px;
 }
 
-.butPodKart {
-    height: 34px;
-    width: 170px;
-    font-size: 15px;
-    border: none;
-    border-radius: 5px;
-    color: #ffffff;
-    margin: 0 8px;
-    0 0;
+.join{
+    margin-top:7px;
+    font-size:19px;
 }
 
-.pravPodKart spun {
-    color: #A1C6C3;
-    font-size: 15px
+.but_na_ekr{
+    margin-top:33px;
+    font-size:24px;
+    padding:17px 26px;
+    border:none;
+    border-radius:10px;
+}
+
+.but_na_ekr:hover{
+    cursor:pointer;
+}
+
+.pod_ekr{
+    min-height:115px;
+}
+
+.levo_pod_ekr{
+    float:left;
+    margin:20px 0 0 7.8%;
+    color:white;
+    font-size:19px;
+    line-height:27px;
+}
+
+.levo_pod_ekr span{
+    font-size:15px;
+}
+
+.levo_pod_ekr:after{
+    clear:both;
+    display:table;
+    content:none;
+}
+
+.pravo_pod_ekr{
+    font-size:14px;
+    float:right;
+    margin:40px 8.1% 0 0;
+    color:#ffffff;
+}
+
+.pravo_pod_ekr button{
+    padding:10px 14px;
+    border:none;
+    margin-right:14px;
+    border-radius:10px;
+    color:#ffffff;
+}
+
+.pravo_pod_ekr button:hover{
+    cursor:pointer;
+}
+
+.pravo_pod_ekr span{
+    color:#0088cc;
 }
