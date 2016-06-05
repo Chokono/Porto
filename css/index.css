@@ -4,7 +4,7 @@ body {
 }
 
 #BG {
-    background: url('') no-repeat;!!!!
+    background: url('../land.png') no-repeat;
     background-size:100%;
     max-width: 1350px;
     min-height: 6000px;
