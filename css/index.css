@@ -18,19 +18,97 @@ body {
     display: block;
     height: 45px;
     width: 90px;
-    margin: 10px 0 0 7.5%;
+    margin: 35px 0% 0 14.5%;
     float: left;
 }
 
 header {
-    min-height: 67px;
-    box-shadow: 0 1px 2px;
+    min-height: 105px;
+}
+
+header>div {
+    text-align: right;
+    margin-right: 14%;
+}
+
+.edin {
+    display: inline-block;
+    height: 15px;
+    text-decoration: none;
+    position: relative;
+    font-size: 12px;
+    color: #8DBACC;
+    margin: 0 15px;
+}
+
+.edin::before {
+    content: '';
+    display: block;
+    width: 5px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(55deg);
+    background: #8DBACC;
+    top: 5px;
+    left: -10px;
+}
+
+.edin::after {
+    content: '';
+    display: block;
+    width: 5px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-55deg);
+    background: #8DBACC;
+    top: 7px;
+    left: -10px;
+}
+
+.tel {
+    display: inline-block;
+    color: #8DBACC;
+    font-size: 12px;
+    position: relative;
+    margin-left: 20px;
+}
+
+.tel::before {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: -15px;
+    background: url('../img/tel.png') no-repeat;
+    background-size: 100%;
+}
+
+.serch {
+    display: inline-block;
+    height: 25px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.serch::after {
+    display: block;
+    content: '';
+    position: absolute;
+    /*background: url(../img/lupa.png) no-repeat 50% 50%;*/
+    height: 25px;
+    width: 25px;
+    background-size: 100%;
+    border-radius: 50%;
+    background-color: red;
+    top: 0;
+    right: 25px;
 }
 
 .knop3 {
     float: right;
     width: 110px;
-    margin: 14px 7.5% 0 0;
+    margin: 60px 12.3% 0 0;
 }
 
 header div a:hover {
@@ -43,31 +121,31 @@ header div a:hover {
 
 .knopki {
     display: inline-block;
-    height: 35px;
-    width: 32px;
+    height: 25px;
+    width: 25px;
     border: none;
     border-radius: 50%;
     box-shadow: 0 2px 5px;
 }
 
 .knopka1 {
-    background: url("../img/sprite.png") no-repeat 10px 7px;
+    background: url("../img/sprite.png") no-repeat 7px 5px;
 }
 
 .knopka2 {
-    background: url("../img/sprite.png") no-repeat -50px 7px;
+    background: url("../img/sprite.png") no-repeat -55px 5px;
 }
 
 .knopka3 {
-    background: url("../img/sprite.png") no-repeat -100px 7px;
+    background: url("../img/sprite.png") no-repeat -105px 5px;
 }
 
 nav {
     vertical-align: middle;
-    margin: 14px 0.65% 0 0;
+    margin: 60px 0.65% 0 0;
     float: right;
-    line-height: 40px;
-    font-size: 12.5px;
+    line-height: 35px;
+    font-size: 10px;
     color: #0088cc;
 }
 
@@ -79,8 +157,23 @@ nav a {
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
-    height: 40px;
-    margin-right: 3px;
+    height: 35px;
+    margin-right: 1.5px;
+    position: relative;
+}
+
+nav a::after{
+    position: absolute;
+    content: '';
+    display: block;
+    border: 5px solid #0088cc;
+    right: 6px;
+    top: 15px;
+    width: 0;
+    height: 0;
+    border-bottom-color:transparent;
+    border-left-color:transparent;
+    border-right-color:transparent;
 }
 
 nav a:last-child {
@@ -96,24 +189,30 @@ nav a li {
     padding: 0 18px 0 13px;
 }
 
+nav a:hover::after {
+    border-top-color: white;
+}
+
 .ekran {
-    padding-top: 245px;
-    margin-top: 58px;
-    min-height: 455px;
+    padding-top: 208px;
+    margin-top: 0px;
+    min-height: 390px;
     background-color: #000000;
     color: #ffffff;
     text-align: center;
 }
 
 .start {
-    font-size: 24px;
+    font-size: 20px;
         color:#ff0000;
+        text-transform: uppercase;
 }
 
 .new {
-    font-size: 65px;
+    font-size: 55px;
     font-weight: 800;
-    margin-top: 5px;
+    margin-top: 15px;
+    text-transform: uppercase;
 }
 
 .join {
@@ -134,40 +233,41 @@ nav a li {
 }
 
 .pod_ekr {
-    min-height: 115px;
+    min-height: 98px;
 }
 
 .levo_pod_ekr {
     float: left;
-    margin: 20px 0 0 7.8%;
+    margin: 14px 0 0 13.9%;
     color: white;
-    font-size: 19px;
-    line-height: 27px;
+    font-size: 16px;
+    line-height: 25px;
 }
 
 .levo_pod_ekr span {
     font-size: 15px;
 }
 
-.levo_pod_ekr:after {
+.levo_pod_ekr::after {
     clear: both;
     display: table;
-    content: none;
+    content: '';
 }
 
 .pravo_pod_ekr {
-    font-size: 14px;
+    font-size: 12px;
     float: right;
-    margin: 40px 8.1% 0 0;
+    margin: 33px 14.1% 0 0;
     color: #ffffff;
 }
 
 .pravo_pod_ekr button {
-    padding: 10px 14px;
+    padding: 7px 12px;
     border: none;
     margin-right: 14px;
     border-radius: 10px;
     color: #ffffff;
+    font-size: 12px;
 }
 
 .pravo_pod_ekr button:hover {
@@ -176,4 +276,164 @@ nav a li {
 
 .pravo_pod_ekr span {
     color: #0088cc;
+}
+
+.white {
+    text-align: center;
+    padding: 55px 0;
+    color: #8DBACC;
+    min-height: 315px;
+    vertical-align: top;
+}
+
+.porto {
+    font-size: 24px;
+}
+
+.porto span {
+    font-weight: bold;
+}
+
+.trusted {
+    margin: 20px 0 0;
+    font-size: 17.5px;
+    line-height: 22px;
+}
+
+.foure {
+    display: inline-block;
+    height: 100px;
+    width: 170px;
+    margin: 35px 38px;
+    padding: 40px 0 0;
+    text-decoration: none;
+}
+
+.foure div {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    color: black;    
+    font-size: 16px;
+}
+
+.foure div span:first-of-type {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 42px;
+}
+
+.foure div span:last-of-type {
+    color: #0088cc;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.foure:first-of-type {
+    background: url('../img/sprite1.png') no-repeat 0px -70px;
+}
+
+.foure:nth-of-type(2){
+    background: url('../img/sprite1.png') no-repeat -105px -67px;
+}
+
+.foure:nth-of-type(3){
+    background: url('../img/sprite1.png') no-repeat -220px -70px;
+}
+
+.foure:last-of-type {
+    background: url('../img/sprite1.png') no-repeat -315px -73px;
+}
+
+.foure:hover div span:last-of-type {
+    color: red;
+}
+
+.podwhite {
+    margin: 0 auto;
+    width: 1000px;
+    padding: 50px 0 0 0;
+    height:263px;
+}
+
+.podleft, .podright {
+    display: block;
+    font-size:12px;
+    height: 220px;
+    width: 270px;
+    line-height: 22px;
+}
+
+.podwhite span {
+    font-size: 16.5px;
+}
+
+.podleft {
+    position: relative;
+    text-align: right;
+    padding-right: 50px;
+    float:left;
+}
+
+.podleft::after{
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 30px;
+    width: 30px;
+    background: url('../img/sprite2.png') -120px 0;
+    right: 10px;
+}
+
+.podleft::before{
+    display: block;
+    content: '';
+    position: absolute;
+    top: 110px;
+    height: 30px;
+    width: 30px;
+    background: url('../img/sprite2.png') 0px 0px;
+    right: 10px;
+}
+
+.rispodwhite {
+    display: inline-block;
+    height: 310px;
+    width: 360px;
+    margin-top: -110px;
+}
+
+.podright {
+    position: relative;
+    text-align: left;
+    padding-left: 50px;
+    float: right;
+}
+
+.podright::after{
+    display: block;
+    content: '';
+    position: absolute;
+    top: 110px;
+    height: 30px;
+    width: 30px;
+    background: url('../img/sprite2.png') -415px 0px;
+    left: 3px;
+}
+
+.podright::before{
+    display: block;
+    content: '';
+    position: absolute;
+    top: -2px;
+    height: 30px;
+    width: 30px;
+    background: url('../img/sprite2.png') -253px 0px;
+    left: 3px;
+}
+
+.podnis{
+    margin-top: 20px;
+    line-height:24px;
 }
