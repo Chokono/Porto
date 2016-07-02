@@ -4,10 +4,9 @@
 });
 
 BG.addEventListener('click', function() {
-    console.log("Bg", BG.id, BG.style);
     if (BG.style.backgroundImage === "") {
         BG.style.backgroundImage = "url('../land.png')";
     } else {
         BG.style.backgroundImage = "";
     };
-});
+})
