@@ -337,8 +337,8 @@ nav a:hover::after {
 .foure {
     display: inline-block;
     height: 100px;
-    width: 170px;
-    margin: 35px 38px;
+    width: 16%;
+    margin: 56px 2.7%;
     padding: 40px 0 0;
     text-decoration: none;
 }
@@ -352,9 +352,9 @@ nav a:hover::after {
 }
 
 .foure div span:first-of-type {
-font-size: 52px;
-font-weight: bold;
-line-height: 56px;
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 56px;
 }
 
 .foure div span:last-of-type {
