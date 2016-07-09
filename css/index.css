@@ -314,7 +314,7 @@ nav a:hover::after {
 
 .white {
     text-align: center;
-    padding: 55px 0;
+    padding: 205px 0 0 0;
     color: #8DBACC;
     min-height: 315px;
     vertical-align: top;
@@ -352,9 +352,9 @@ nav a:hover::after {
 }
 
 .foure div span:first-of-type {
-    font-size: 40px;
-    font-weight: bold;
-    line-height: 42px;
+font-size: 52px;
+font-weight: bold;
+line-height: 56px;
 }
 
 .foure div span:last-of-type {
@@ -364,7 +364,7 @@ nav a:hover::after {
 }
 
 .foure:first-of-type {
-    background: url('../img/sprite1.png') no-repeat 0px -70px;
+    background: url('../img/sprite1.png') no-repeat 28px -71px
 }
 
 .foure:nth-of-type(2) {
