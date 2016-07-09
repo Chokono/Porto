@@ -3,6 +3,10 @@
     e.style.backgroundColor = `rgba(${t[0]},${t[1]},${t[2]},0.30)`;
 });
 
+[].forEach.call(document.querySelectorAll('a'), (e) => {
+	e.onclick = ()=>{return false;}
+});
+
 BG.addEventListener('click', function() {
     if (BG.style.backgroundImage === "") {
         BG.style.backgroundImage = "url('../land.png')";
@@ -96,3 +100,7 @@ ismenbutf2.addEventListener('click', function() {
 	}
 
 });
+
+})
+
+
