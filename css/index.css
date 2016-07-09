@@ -13,7 +13,6 @@ body {
 
 .row{
     max-width: 1350px;
-    opacity: 0.5;
     margin: 0 auto;
 }
 
@@ -25,11 +24,11 @@ body {
     float: left;
 }
 
-header {
+.header {
     padding: 0.1px 0 9px;
 }
 
-header>div {
+.header>.info {
     text-align: right;
     margin: 20px 14% 0 0;
 }
