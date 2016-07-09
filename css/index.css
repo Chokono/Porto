@@ -7,18 +7,21 @@ body {
     background-image: url('../land.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    max-width: 1350px;
     min-height: 8100px;
+    color:#ff0000;
+}
+
+.row{
+    max-width: 1350px;
     opacity: 0.5;
     margin: 0 auto;
-    color:#ff0000;
 }
 
 .logo {
     display: block;
-    height: 45px;
-    width: 90px;
-    margin: -15px 0% 0 14.5%;
+    height: 53px;
+    width: 109px;
+    margin: -15px 0% 0 12.1%;
     float: left;
 }
 
