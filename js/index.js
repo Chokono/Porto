@@ -101,6 +101,4 @@ ismenbutf2.addEventListener('click', function() {
 
 });
 
-})
-
 
