@@ -24,7 +24,7 @@ body {
 }
 
 .header {
-    padding: 0.1px 0 9px;
+    padding: 0.1px 0 12px;
 }
 
 .header>.info {
@@ -174,11 +174,10 @@ body {
     vertical-align: middle;
     margin: 13px 1.1% 0 0;
     float: right;
-    line-height: 40px;
+    line-height: 14px;
     font-size: 12px;
     color: #0088cc;
     width: 66%;
-    height: 45px;
     text-align: right;
 }
 
@@ -197,8 +196,8 @@ body {
 .menushka a {
     display: block;
     text-decoration: none;
-    height: 40px;
-    padding: 0px 23px 0px 14px;
+    height: 25px;
+    padding: 15px 23px 0px 14px;
 }
 
 .menushka li::after {
@@ -318,7 +317,7 @@ body {
 
 .foure {
     display: inline-block;
-    height: 100px;
+    min-width: 200px;
     width: 16%;
     margin: 40px 2.7%;
     padding: 40px 0 0;
@@ -426,7 +425,7 @@ body {
 }
 
 .podright {
-    margin-right: 10.5%;
+    margin-right: 8.2%;
     position: relative;
     text-align: left;
     padding-left: 55px;
@@ -595,10 +594,9 @@ body {
 
 .saitiris img {
     height: 240px;
-    margin: 0px 10%;
     outline: 1px solid black;
     border-radius: 5px;
-    margin: 10px;
+    width: 84%;
 }
 
 .clear {
