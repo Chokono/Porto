@@ -170,7 +170,7 @@ body {
     background: url("../img/sprite.png") no-repeat -105px 5px;
 }
 
-nav {
+.menushka {
     vertical-align: middle;
     margin: 13px 1.1% 0 0;
     float: right;
@@ -182,11 +182,11 @@ nav {
     text-align: right;
 }
 
-nav:after {
+.menushka:after {
     clear: both;
 }
 
-nav li {
+.menushka li {
     border-radius: 5px;    
     display: inline-block;
     position: relative;
@@ -194,14 +194,14 @@ nav li {
     overflow: hidden;
 }
 
-nav a {
+.menushka a {
     display: block;
     text-decoration: none;
     height: 40px;
     padding: 0px 23px 0px 14px;
 }
 
-nav li::after {
+.menushka li::after {
     position: absolute;
     content: '';
     display: block;
@@ -215,12 +215,12 @@ nav li::after {
     border-right-color: transparent;
 }
 
-nav a:hover {
+.menushka a:hover {
     background-color: #0088cc;
     color: white;
 }
 
-nav li:hover::after {
+.menushka li:hover::after {
     border-top-color: white;
 }
 
