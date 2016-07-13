@@ -177,8 +177,9 @@ nav {
     line-height: 40px;
     font-size: 12px;
     color: #0088cc;
-    width: 680px;
+    width: 66%;
     height: 45px;
+    text-align: right;
 }
 
 nav:after {
@@ -370,7 +371,7 @@ nav li:hover::after {
 
 .podwhite {
     margin: 0 auto;
-    padding: 53px 10.5% 0;
+    padding: 53px 0 0;
     height: 315px;
 }
 
@@ -388,6 +389,7 @@ nav li:hover::after {
 }
 
 .podleft {
+    margin-left: 8.1%;
     position: relative;
     text-align: right;
     padding-right: 50px;
@@ -424,6 +426,7 @@ nav li:hover::after {
 }
 
 .podright {
+    margin-right: 10.5%;
     position: relative;
     text-align: left;
     padding-left: 55px;
@@ -845,7 +848,7 @@ nav li:hover::after {
 
 .ismen {
     padding-top: 50px;
-    height: 850px;
+    height: 993px;
     overflow: hidden;
 }
 
@@ -982,11 +985,11 @@ nav li:hover::after {
 }
 
 #ismenbutf1 {
-    top: 670px;
+    top: 788px;
 }
 
 #ismenbutf2 {
-    top: 670px;
+    top: 788px;
 }
 
 .ismenlist header {
@@ -998,13 +1001,15 @@ nav li:hover::after {
 }
 
 .ismenlist article {
-    height: 530px;
-   /* background: url('../img/article.png') no-repeat 0;*/
+    height: 610px;
+    background: url('../img/article.png') no-repeat 0;
+    background-size: 300% 610px;
 }
 
 .ismenlist footer {
-    height: 180px;
-   /* background: url('../img/footer.png') no-repeat 0;*/
+    height: 200px;
+    background: url('../img/footer.png') no-repeat 0;
+    background-size: 300% 200px;
 }
 
 .solnishko {
