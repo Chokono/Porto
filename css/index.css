@@ -6,7 +6,7 @@ body {
 #BG {
     background-image: url('../land.png');
     background-repeat: no-repeat;
-    min-height: 8100px;
+    min-height: 9400px;
     color: #ff0000;
     background-position: center top;
 }
@@ -177,7 +177,6 @@ body {
     line-height: 14px;
     font-size: 12px;
     color: #0088cc;
-    width: 66%;
     text-align: right;
 }
 
@@ -570,7 +569,7 @@ body {
     font-weight: bold;
     color: #1d2127;
     width: 25%;
-    padding-bottom: 10px;
+    padding: 10px 0 10px 0;
 }
 
 .new::before {
@@ -597,6 +596,7 @@ body {
     outline: 1px solid black;
     border-radius: 5px;
     width: 84%;
+    margin-bottom: 10px;
 }
 
 .clear {
@@ -628,7 +628,6 @@ body {
 
 .chernad {
     padding-top: 5px;
-    height: 450px;
     width: 810px;
     margin: 10px auto 0px;
     font-size: 41px;
@@ -674,7 +673,7 @@ body {
 
 .list {
     position: relative;
-    height: 3950px;
+    height: 398px;
     border-radius: 10px 10px 0 0;
     background: red;
     margin-top: 34px;
@@ -1011,21 +1010,20 @@ body {
 }
 
 .solnishko {
-    padding: 57px 16.3% 70px 20.3%;
+    padding: 68px 12.8% 92px 17%;
 }
 
 .solnkol {
-    padding: 100px 0 0;
-    height: 220px;
+    padding: 120px 0 0;
     float: left;
-    margin-right: 3.2%;
+    margin-right: 3.8%;
     text-align: center;
 }
 
 .solnkrug {
     position: relative;
-    height: 135px;
-    width: 135px;
+    height: 155px;
+    width: 155px;
     border-radius: 50%;
     border: 2px dashed black;
 }
@@ -1051,24 +1049,24 @@ body {
     height: 3px;
     width: 45px;
     border-radius: 50%;
-    box-shadow: -3px 12px 3px black;
+    box-shadow: -3px 14px 3px black;
     position: absolute;
     left: 50%;
-    bottom: 0px;
+    bottom: -0px;
     margin-left: -18px;
 }
 
 .solnkol p {
-    font-size: 26px;
+    font-size: 29px;
     font-family: Brush Script Std;
-    margin-top: 20px;
+    margin-top: 30px;
     color: #2e353e;
     line-height: 24px;
 }
 
 .solnkol p span {
     font-family: arial;
-    font-size: 12px;
+    font-size: 14px;
     color: #0088cc;
 }
 
@@ -1078,8 +1076,8 @@ body {
 }
 
 .solnkrugbig {
-    height: 296px;
-    width: 296px;
+    height: 345px;
+    width: 345px;
     border-radius: 50%;
     border: 2px dashed black;
     position: relative;
@@ -1088,9 +1086,9 @@ body {
 }
 
 .solnkolbig p {
-    font-size: 26px;
+    font-size: 29px;
     font-family: Brush Script Std;
-    margin-top: 30px;
+    margin-top: 40px;
     color: #2e353e;
 }
 
@@ -1100,7 +1098,7 @@ body {
     height: 3px;
     width: 60px;
     border-radius: 50%;
-    box-shadow: -13px 18px 3px black;
+    box-shadow: -13px 22px 3px black;
     position: absolute;
     left: 50%;
     bottom: 0px;
@@ -1108,70 +1106,73 @@ body {
 }
 
 .mobile {
-    padding: 60px 0 0 5px;
+    padding: 55px 0 0 5px;
     text-align: center;
-    font-size: 23px;
+    font-size: 26px;
     color: #1d2127;
-    height: 225px;
+    height: 268px;
+    overflow: hidden;
 }
 
 .mobile b {
     font-weight: bold;
     color: #1d2127;
+    font-size: 30px;
 }
 
 .mobile span {
     font-family: Brush Script Std;
     color: #0088cc;
+    font-size: 26px;
 }
 
 .mobile p {
-    font-size: 17.5px;
+    font-size: 20px;
     color: #777777;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 .mobilecolobch {
     display: inline-block;
-    margin: 30px;
+    margin: 40px 0 0;
 }
 
 .mobilecol {
     position: relative;
-    width: 300px;
+    width: 320px;
     display: block;
     float: left;
     margin: 0px 5px;
-    font-size: 16px;
-    line-height: 36px;
+    font-size: 19px;
+    line-height: 46px;
 }
 
 .mobilecol p {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .mobileimg {
-    width: 320px;
-    height: 140px;
+    width: 380px;
+    height: 160px;
 }
 
 .mobileleft {
     text-align: right;
-    padding: 25px 50px 0 0;
+    padding: 20px 60px 0 0;
 }
 
 .mobileright {
     text-align: left;
-    padding: 25px 0 0 50px;
+    padding: 20px 0 0 60px;
 }
 
 .mobileleft::after {
     display: block;
     content: "";
     position: absolute;
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
     border-radius: 50%;
     box-shadow: 0 0 1px black;
     top: 35px;
@@ -1184,12 +1185,431 @@ body {
     display: block;
     content: "";
     position: absolute;
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
     border-radius: 50%;
     box-shadow: 0 0 1px black;
     top: 35px;
     left: 8px;
     background: url("../img/glas.png") no-repeat 50%;
     background-size: 100%;
+}
+
+.docu {
+    padding: 70px 4% 67px 7.5%;    
+}
+
+.docu h1 {
+    font-size: 28px;
+    color: #393d42;
+    margin: 8px 0 24px;
+}
+
+.docu h1 b {
+    font-weight: bold;
+    color: #575a5e;
+}
+
+.docu p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #8a8a8a;
+}
+
+.docu1 {
+    padding: 50px 12% 55px 7.5%;    
+}
+
+.doculeft {
+    height: 160px;
+    width: 270px;
+    float: left;
+    margin-right: 2%;
+    background: url("../img/gadjet.png") no-repeat;
+    background-size: 100%;
+}
+
+.docuright {
+    float: right;
+    height: 260px;
+    width: 210px;
+    margin-top: -100px;
+    background: url("../img/gadjet1.png") no-repeat;
+    background-size: 100%;
+}
+
+.key {
+    padding: 50px 0 60px 0;
+    text-align: center;
+}
+
+.key h1 {
+    font-size: 28px;
+    color: #393d42;
+    margin: 8px 0 14px;
+}
+
+.key h1 b {
+    font-weight: bold;
+    color: #575a5e;
+}
+
+.key p {
+    font-size: 20px;
+    line-height: 20px;
+    color: #8a8a8a;
+    margin-bottom: 35px;
+}
+
+.key1 {
+    padding-left: 6.5%;
+}
+
+.keycol {
+    display: block;
+    float: left;
+    margin: 0 1.4%;
+}
+
+.keygal {
+    padding: 25px 0px 24px 53px;
+    color: #393d42;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: left;
+    position: relative;
+}
+
+.keygal span {
+    font-size: 12px;
+}
+
+.keygal::before {
+    display: block;
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    top: 25px;
+    left: 5px;
+    background: url("../img/galka.png") no-repeat 50%;
+    background-size: 60%;
+    box-shadow: 0 0 1px black;
+}
+
+.polosa {
+    margin: 40px 0 30px;
+    height: 2px;
+    background: linear-gradient(to right, transparent 0%, #dddddd 50%, transparent 100%);
+
+}
+
+.key h2 {
+    color: #0088cc;
+    font-family: Brush Script Std;
+    font-size: 30px;
+}
+
+.slaiderzapis {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.star {
+    background: url(../img/star.png) no-repeat;
+    height: 30px;
+    width: 135px;
+    display: inline-block;
+}
+
+.slaiderzapis h1 {
+    margin: 5px 0 48px;
+    color: white;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.slaiderzapis p {
+    color: white;
+    line-height: 21px;
+    font-style: italic;
+}
+
+.kavichki {
+    display: inline-block;
+    position: relative;
+}
+
+.kavichki::before {
+    display: block;
+    content: '';
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: -50px;
+    background: url('../img/kavichki.png') no-repeat;
+    background-size: 100%;
+}
+
+.kavichki::after {
+    display: block;
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: -50px;
+    bottom: 2px;
+    background: url('../img/kavichki.png') no-repeat;
+    background-size: 100%;
+    transform: rotate(180deg);
+}
+
+h3 {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 30px 0 10px;
+}
+
+input[name="slai"] {
+    display: none;
+}
+
+.slai {
+    display: inline-block;
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin: 0 0.4% 0;
+}
+
+.slai:hover {
+    cursor: pointer;
+}
+
+#slai1:checked ~ .labeli label[for="slai1"]{
+    background-color: #0088cc;
+}
+
+#slai2:checked ~ .labeli label[for="slai2"]{
+    background-color: #0088cc;
+}
+
+#slai3:checked ~ .labeli label[for="slai3"]{
+    background-color: #0088cc;
+}
+
+.predposl {
+    padding: 48px 0 106px;
+}
+
+.predposlleft {
+    float: left;
+    font-size: 27px;
+    margin: 67px 0 0 7.8%;
+    color: #54575b;
+    line-height: 28px;
+}
+
+.predposlleft b {
+    font-weight: bold;
+    color: #1d2127;
+}
+
+.predposlleft p {
+    margin-top: 12px;
+    font-size: 16px;
+    color: #777777;
+    line-height: 25px;
+}
+
+.predposlright {
+    float: right;
+    margin: 92px 9.3% 0 0;
+    text-align: center;
+}
+
+.predposlright button {
+    font-weight: bold;    
+    display: block;
+    font-size: 17px;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.predposlright button:hover {
+    cursor: pointer;
+}
+
+.predposlright p {
+    font-size: 12px;
+    margin-top: 13px;
+    color: #0088cc;
+}
+
+.fotcon {
+    position: relative;
+    padding: 75px 7.8% 47px;
+}
+
+.fotcon::before {
+    display: block;
+    content: '';
+    position: absolute;
+    height: 40px;
+    width: 150px;
+    top: -17px;
+    left: 7%;
+    background: url(../img/get.png) no-repeat;
+    background-size: 100%;
+}
+
+.fotcol {
+    float: left;
+    margin-right: 2.7%;
+}
+
+.fotcol h1 {
+    color: white;
+    font-size: 21px;
+}
+
+.fotcol p {
+    margin: 17px 0 7px;
+    color: #4f4f4f;
+    font-size: 13px;
+    line-height: 24px;
+    text-indent: 20px;
+}
+
+.firste {
+    text-indent: 0px;
+    margin-bottom: 0;
+}
+
+.e-mail {
+    margin-top: 15px;
+    display: inline-block;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    background-color: white;
+    outline: none;
+    padding: 8px 12px;
+    font-size: 15px;
+    width: 190px;
+}
+
+.go {
+    display: inline-block;
+    font-size: 15px;
+    color: #5c5f6b;
+    padding: 7px 11px;
+    border: 1px solid transparent;
+    border-left-color: #afafaf;
+    margin-left: -4px;
+    border-radius: 0 5px 5px 0;
+}
+
+.fotcol time {
+    display: block;
+    font-size: 11px;
+    color: white;
+    margin: 11px 0 25px;
+}
+
+.fotcol .seconde {
+    text-indent: 25px;
+    color: #6d6d6d;
+    font-size: 13px;
+    margin-top:11px;
+}
+
+.fotcol .seconde:first-of-type {
+    margin-top:18px;
+}
+
+.seconde b {
+    font-weight: bold;
+}
+
+.fotcol .seconde span {
+    color: white;
+}
+
+.fotcol1 {
+    padding-left: 17px;
+}
+
+.knopkia {
+    margin-top: 17px;
+}
+
+.knopkia:hover {
+    cursor: pointer;
+}
+
+.knopkia {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 50%;
+}
+
+.knopka1a {
+    background: url("../img/sprite.png") no-repeat 7px 5px;
+}
+
+.knopka2a {
+    background: url("../img/sprite.png") no-repeat -55px 5px;
+}
+
+.knopka3a {
+    background: url("../img/sprite.png") no-repeat -105px 5px;
+}
+
+.background {
+    padding: 30px 7.5%;
+}
+
+.background .logoa {
+    display: block;
+    float: left;
+}
+
+.background p {
+    display: block;
+    float: left;
+    color: white;
+    font-size: 13px;
+    margin: 10px 0 0 2.7%;
+}
+
+.menuniz {
+    float: right;
+    margin: 5px 0.5%;
+}
+
+.knopniz {
+    background: none;
+    display: inline-block;
+    border: 1px solid transparent;
+    border-right-color: #505050;
+    font-size: 12px;
+    color: white;
+    margin: -3px;
+    padding: 0px 11px;
+}
+
+.knopniz:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.knopniz3 {
+    border: none;
 }

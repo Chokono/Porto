@@ -25,7 +25,7 @@ ismenbuth1.addEventListener('click', function() {
 	}
 		else if (k === 3) {
 		k -=1;
-		header.style.backgroundPosition = "-622px 0px";
+		header.style.backgroundPosition = "50% 0px";
 		header.style.transitionDuration = "1s";
 	}
 
@@ -34,12 +34,12 @@ ismenbuth1.addEventListener('click', function() {
 ismenbuth2.addEventListener('click', function() {
 	if (k === 1) {
 		k +=1;
-		header.style.backgroundPosition = "-622px 0px";
+		header.style.backgroundPosition = "50% 0px";
 		header.style.transitionDuration = "1s";
 	}
 		else if (k === 2) {
 		k +=1;
-		header.style.backgroundPosition = "-1244px 0px";
+		header.style.backgroundPosition = "100% 0px";
 		header.style.transitionDuration = "1s";
 	}
 
@@ -53,7 +53,7 @@ ismenbuta1.addEventListener('click', function() {
 	}
 		else if (a === 3) {
 		a -=1;
-		article.style.backgroundPosition = "-622px 0px";
+		article.style.backgroundPosition = "50% 0px";
 		article.style.transitionDuration = "1s";
 	}
 
@@ -62,12 +62,12 @@ ismenbuta1.addEventListener('click', function() {
 ismenbuta2.addEventListener('click', function() {
 	if (a === 1) {
 		a +=1;
-		article.style.backgroundPosition = "-622px 0px";
+		article.style.backgroundPosition = "50% 0px";
 		article.style.transitionDuration = "1s";
 	}
 		else if (a === 2) {
 		a +=1;
-		article.style.backgroundPosition = "-1244px 0px";
+		article.style.backgroundPosition = "100% 0px";
 		article.style.transitionDuration = "1s";
 	}
 
@@ -81,7 +81,7 @@ ismenbutf1.addEventListener('click', function() {
 	}
 		else if (m === 3) {
 		m -=1;
-		footer.style.backgroundPosition = "-622px 0px";
+		footer.style.backgroundPosition = "50% 0px";
 		footer.style.transitionDuration = "1s";
 	}
 
@@ -90,12 +90,12 @@ ismenbutf1.addEventListener('click', function() {
 ismenbutf2.addEventListener('click', function() {
 	if (m === 1) {
 		m +=1;
-		footer.style.backgroundPosition = "-622px 0px";
+		footer.style.backgroundPosition = "50% 0px";
 		footer.style.transitionDuration = "1s";
 	}
 		else if (m === 2) {
 		m +=1;
-		footer.style.backgroundPosition = "-1244px 0px";
+		footer.style.backgroundPosition = "100% 0px";
 		footer.style.transitionDuration = "1s";
 	}
 
