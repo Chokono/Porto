@@ -1,0 +1,106 @@
+#BG {
+	background-image: url('../im.png');
+	min-height: 15000px;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.row {
+	width: 300px;
+}
+
+.about, .cont, .tel, .serch, .knopki, .menumob {
+	display: none;
+}
+
+.menushka {
+	height: 20px;
+	width: 20px;
+	float: left;
+	margin:-5px 0 0 0.5%;
+	position: relative;
+}
+
+.menushka:hover {
+	cursor: pointer;
+}
+
+.menushka::before {
+	display: block;
+	content: "";
+	width: 15px;
+	height: 2px;
+	background-color: #0088cc;
+	box-shadow: 0 5px 0 #0088cc, 0 10px 0 #0088cc;
+	position: absolute;
+	top: 3.5px;
+	left: 3px;
+}
+
+.menumob{
+	position: relative;
+	top: 20px;
+	left: 10px;
+}
+
+.menumob li {
+	width: 130px;
+	text-align: center;
+}
+
+.logo {
+	float: right;
+	margin: -25px 28% 0 0%;
+}
+
+.form {
+	float: left;
+	height: 1px;
+	width: 1px;
+	background-color: red;
+	transform: translate(65px, -10px);
+}
+
+.ekran {
+	padding: 100px 0 100px;
+}
+
+.start {
+	font-size: 12px;
+}
+
+.now {
+	font-size: 26px;
+	margin-top: 50px;
+}
+
+.pod_ekr {
+	padding: 26px 0 27px;
+}
+
+.levo_pod_ekr {
+	padding: 0;
+	margin: 0;
+	line-height: 20px;
+}
+
+.levo_pod_ekr span {
+	line-height: 24px;
+	font-size: 14px;
+}
+
+.pravo_pod_ekr {
+	margin: 27px 0 0;
+	text-align: right;
+	padding: 0;
+	font-size: 13px;
+}
+
+.pravo_pod_ekr button {
+	display: block;
+	margin: 0 0 25px 0;
+}
+
+.white {
+	padding-top: 53px;
+}
