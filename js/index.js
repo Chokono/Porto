@@ -103,16 +103,19 @@ ismenbutf2.addEventListener('click', function() {
 
 var menu = document.querySelector('.menushka');
 
-if(document.body.offsetWidth<500) {
-	menu.addEventListener('click', function() {		
-		if (document.querySelector('.menumob').style.display === "none") {
+menu.addEventListener('click', function() {	
+	if(document.body.offsetWidth<1020) {
+		if (document.querySelector('.menumob').style.display === "block") {
+			document.querySelector('.menumob').style.display = "none"
+		} else {
 			document.querySelector('.menumob').style.display = "block"
-		} else {document.querySelector('.menumob').style.display = "none"}
-	})
-	
-};
+		}
+	}
+});
 
 var hei=document.querySelector('.solnkrugbig').offsetWidth;
 
-document.querySelector('.solnkrugbig').style.height= "hei"
+document.querySelector('.solnkrugbig').style.height= "hei";
+
+
 
