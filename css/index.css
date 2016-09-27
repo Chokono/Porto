@@ -43,7 +43,7 @@ body {
 }
 
 .header {
-    padding: 0.1px 0 12px;
+    min-height: 125px;
 }
 
 #headerRight>.info {
@@ -267,7 +267,7 @@ body {
 .now {
     font-size: 63px;
     font-weight: bold;
-    margin-top: 15px;    
+    margin-top: 15px;
 }
 
 .pod_ekr {
@@ -295,7 +295,7 @@ body {
 .pravo_pod_ekr {
     font-size: 14px;
     float: right;
-    margin: 38px 9% 0 0;
+    margin: 34px 9% 0 0;
     color: #ffffff;
 }
 
@@ -344,7 +344,6 @@ body {
     min-width: 200px;
     width: 16%;
     margin: 40px 2.7%;
-    padding: 40px 0 0;
     text-decoration: none;
 }
 
@@ -353,7 +352,6 @@ body {
 }
 
 .foure div {
-    display: inline;
     margin: 0;
     padding: 0;
     color: black;
@@ -371,21 +369,24 @@ body {
     font-size: 14px;
     line-height: 30px;
 }
-
-.foure:first-of-type {
-    background: url('../img/sprite1.png') no-repeat 22px -71px
+.foure_icon{
+	height: 37px;
 }
 
-.foure:nth-of-type(2) {
-    background: url('../img/sprite1.png') no-repeat -86px -71px;
+.foure:first-of-type .foure_icon {
+    background: url('../img/sprite1.png') no-repeat center -167px;
 }
 
-.foure:nth-of-type(3) {
-    background: url('../img/sprite1.png') no-repeat -196px -72px;
+.foure:nth-of-type(2) .foure_icon {
+    background: url('../img/sprite1.png') no-repeat center -110px;
 }
 
-.foure:last-of-type {
-    background: url('../img/sprite1.png') no-repeat -289px -74px;
+.foure:nth-of-type(3) .foure_icon {
+    background: url('../img/sprite1.png') no-repeat center -48px;
+}
+
+.foure:last-of-type .foure_icon {
+    background: url('../img/sprite1.png') no-repeat center 3px;
 }
 
 .foure:hover div span:last-of-type {
@@ -652,7 +653,7 @@ body {
     font-size: 41px;
     line-height: 24px;
     color: white;
-    position: relative;    
+    position: relative;
     max-width: 815px;
 }
 
@@ -1224,7 +1225,7 @@ body {
 }
 
 .docu {
-    padding: 70px 4% 67px 7.5%;    
+    padding: 70px 4% 67px 7.5%;
 }
 
 .docu h1 {
@@ -1245,7 +1246,7 @@ body {
 }
 
 .docu1 {
-    padding: 50px 12% 55px 7.5%;    
+    padding: 50px 12% 55px 7.5%;
 }
 
 .doculeft {
@@ -1331,7 +1332,6 @@ body {
     margin: 40px 0 30px;
     height: 2px;
     background: linear-gradient(to right, transparent 0%, #dddddd 50%, transparent 100%);
-
 }
 
 .key h2 {
@@ -1418,15 +1418,15 @@ input[name="slai"] {
     cursor: pointer;
 }
 
-#slai1:checked ~ .labeli label[for="slai1"]{
+#slai1:checked ~ .labeli label[for="slai1"] {
     background-color: #0088cc;
 }
 
-#slai2:checked ~ .labeli label[for="slai2"]{
+#slai2:checked ~ .labeli label[for="slai2"] {
     background-color: #0088cc;
 }
 
-#slai3:checked ~ .labeli label[for="slai3"]{
+#slai3:checked ~ .labeli label[for="slai3"] {
     background-color: #0088cc;
 }
 
@@ -1461,7 +1461,7 @@ input[name="slai"] {
 }
 
 .predposlright button {
-    font-weight: bold;    
+    font-weight: bold;
     display: block;
     font-size: 17px;
     padding: 14px 25px;
@@ -1558,11 +1558,11 @@ input[name="slai"] {
     text-indent: 25px;
     color: #6d6d6d;
     font-size: 13px;
-    margin-top:11px;
+    margin-top: 11px;
 }
 
 .fotcol .seconde:first-of-type {
-    margin-top:18px;
+    margin-top: 18px;
 }
 
 .seconde b {
