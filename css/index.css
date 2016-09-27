@@ -18,7 +18,7 @@ body {
 
 #headerLeft {
     width: 15%;
-    min-width: 150px;
+    min-width: 100px;
     float: left;
     text-align: left;
 }
@@ -27,6 +27,7 @@ body {
     float: right;
     text-align: right;
     margin: 0 5% 10px 0;
+    max-width: 85%;
 }
 
 .logotip {
@@ -205,7 +206,7 @@ body {
 }
 
 .menushka li {
-    border-radius: 5px;    
+    border-radius: 5px;
     display: inline-block;
     position: relative;
     margin-right: -1px;
@@ -266,8 +267,7 @@ body {
 .now {
     font-size: 63px;
     font-weight: bold;
-    margin-top: 15px;
-    
+    margin-top: 15px;    
 }
 
 .pod_ekr {
@@ -394,14 +394,16 @@ body {
 
 .podwhite {
     padding: 53px 0 63px;
+    text-align: center;
 }
 
 .podleft,
 .podright {
-    display: block;
+    display: inline-block;
     font-size: 14px;
     line-height: 24px;
-
+    vertical-align: top;
+    max-width: 25%;
 }
 
 .podwhite span {
@@ -413,8 +415,6 @@ body {
     position: relative;
     text-align: right;
     padding-right: 50px;
-    float: left;
-    margin-left: 9.5%;
 }
 
 .podleft::after {
@@ -440,18 +440,15 @@ body {
 }
 
 .rispodwhite {
-    display: block;
+    display: inline-block;
     height: 370px;
     width: 360px;
-    float: left;
     margin: -120px 1% 0 3.5%;
 }
 
 .podright {
     position: relative;
-    text-align: left;
     padding-left: 55px;
-    float: left
 }
 
 .podright::after {
@@ -1035,16 +1032,20 @@ body {
 }
 
 .solnishko {
-    padding: 68px 0 92px 4.5%;
-    width: 74%;
-    margin: 0 auto;
+    display: inline-block;
+    padding: 68px 0 92px;
+    width: 90%;
 }
 
 .solnkol {
     padding: 120px 0 0;
     float: left;
-    margin-right: 3.8%;
+    margin-right: 30px;
     text-align: center;
+}
+
+.solnkol:last-child {
+    padding-right: 0;
 }
 
 .solnkrug {

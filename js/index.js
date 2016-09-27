@@ -27,8 +27,11 @@ ismenbuth1.addEventListener('click', function() {
 		k -=1;
 		header.style.backgroundPosition = "50% 0px";
 		header.style.transitionDuration = "1s";
+	} else {
+		k=3;
+		header.style.backgroundPosition = "100% 0px";
+		header.style.transitionDuration = "1s";
 	}
-
 });
 
 ismenbuth2.addEventListener('click', function() {
@@ -41,8 +44,11 @@ ismenbuth2.addEventListener('click', function() {
 		k +=1;
 		header.style.backgroundPosition = "100% 0px";
 		header.style.transitionDuration = "1s";
+	} else {
+		k=1;
+		header.style.backgroundPosition = "0% 0px";
+		header.style.transitionDuration = "1s";
 	}
-
 });
 
 ismenbuta1.addEventListener('click', function() {
@@ -55,8 +61,11 @@ ismenbuta1.addEventListener('click', function() {
 		a -=1;
 		article.style.backgroundPosition = "50% 0px";
 		article.style.transitionDuration = "1s";
+	}	else {
+		a=3;
+		article.style.backgroundPosition = "100% 0px";
+		article.style.transitionDuration = "1s";
 	}
-
 });
 
 ismenbuta2.addEventListener('click', function() {
@@ -70,7 +79,11 @@ ismenbuta2.addEventListener('click', function() {
 		article.style.backgroundPosition = "100% 0px";
 		article.style.transitionDuration = "1s";
 	}
-
+	else {
+		a=1;
+		article.style.backgroundPosition = "0% 0px";
+		article.style.transitionDuration = "1s";
+	}
 });
 
 ismenbutf1.addEventListener('click', function() {
@@ -84,7 +97,11 @@ ismenbutf1.addEventListener('click', function() {
 		footer.style.backgroundPosition = "50% 0px";
 		footer.style.transitionDuration = "1s";
 	}
-
+	else {
+		m=3;
+		footer.style.backgroundPosition = "100% 0px";
+		footer.style.transitionDuration = "1s";
+	}
 });
 
 ismenbutf2.addEventListener('click', function() {
@@ -98,7 +115,11 @@ ismenbutf2.addEventListener('click', function() {
 		footer.style.backgroundPosition = "100% 0px";
 		footer.style.transitionDuration = "1s";
 	}
-
+	else {
+		m=1;
+		footer.style.backgroundPosition = "0% 0px";
+		footer.style.transitionDuration = "1s";
+	}
 });
 
 var menu = document.querySelector('.menushka');
